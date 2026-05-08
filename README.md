@@ -1,6 +1,6 @@
-# zibii-linuxdo-connect
+# zibll-linuxdo-connect
 
-> 子比子主题（Zibii）× Linux DO OAuth 登录集成插件
+> 子比子主题（Zibll）× Linux DO OAuth 登录集成插件
 
 [![WordPress](https://img.shields.io/badge/WordPress-5.8%2B-blue?logo=wordpress)](https://wordpress.org)
 [![PHP](https://img.shields.io/badge/PHP-7.4%2B-purple?logo=php)](https://php.net)
@@ -10,7 +10,7 @@
 
 ## 简介
 
-`zibii-linuxdo-connect` 是一个为 **子比（Zibii）主题** 量身定制的功能扩展插件，通过 **Linux DO** 社区的 OAuth 2.0 接口，让用户可以直接使用 Linux DO 账号登录你的 WordPress 站点。
+`zibll-linuxdo-connect` 是一个为 **子比（Zibll）主题** 量身定制的功能扩展插件，通过 **Linux DO** 社区的 OAuth 2.0 接口，让用户可以直接使用 Linux DO 账号登录你的 WordPress 站点。
 
 适合以 Linux DO 社区为目标用户群的个人博客或技术站点使用。
 
@@ -32,7 +32,7 @@
 |------|----------|
 | WordPress | 5.8 + |
 | PHP | 7.4 + |
-| 子比主题（Zibii） | 最新版 |
+| 子比主题（Zibll） | 最新版 |
 | Linux DO OAuth 应用 | 需自行申请 |
 
 ---
@@ -49,7 +49,7 @@
 
 ```bash
 cd wp-content/plugins/
-git clone https://github.com/your-username/zibii-linuxdo-connect.git
+git clone https://github.com/your-username/zibll-linuxdo-connect.git
 ```
 
 然后在 WordPress 后台启用插件。
@@ -88,8 +88,8 @@ Client Secret: xxxxxxxxxxxxxxxx
 ## 目录结构
 
 ```
-zibii-linuxdo-connect/
-├── zibii-linuxdo-connect.php   # 插件入口
+zibll-linuxdo-connect/
+├── zibll-linuxdo-connect.php   # 插件入口
 ├── includes/
 │   ├── oauth.php               # OAuth 流程处理
 │   ├── user.php                # 用户创建 / 绑定逻辑
